@@ -1,5 +1,8 @@
 {
   "image": "mcr.microsoft.com/devcontainers/base:debian",
   "features": {
-  }
+  },
+  "mounts": [
+    "source=codespaces-linux-var-lib-docker,target=/home/steam/,type=volume"
+  ]
 }
